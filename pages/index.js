@@ -11,7 +11,7 @@ export default function Home() {
 			<div className="flex flex-row border-b items-center justify-between pb-2">
 				{/* <!-- Hearder --> */}
 				<span className="text-lg font-semibold capitalize dark:text-gray-300">
-					my admin
+					estreet
 				</span>
 	
 				<span className="relative ">
@@ -25,9 +25,9 @@ export default function Home() {
 							viewBox="0 0 24 24"
 							fill="none"
 							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round">
+							strokeWidth="2"
+							strokeLinecap="round"
+							strokeLinejoin="round">
 							<path
 								d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
 							<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
@@ -48,7 +48,7 @@ export default function Home() {
 					alt="enoshima profile" />
 				<h2
 					className="mt-4 text-xl dark:text-gray-300 font-extrabold capitalize">
-					Hello Enoshima
+					Bievenido "Ente"
 				</h2>
 				<span className="text-sm dark:text-gray-300">
 					<span className="font-semibold text-green-600 dark:text-green-300">
@@ -116,7 +116,7 @@ export default function Home() {
 								014-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4
 								8-4z"></path>
 						</svg>
-						<span className="ml-2 capitalize font-medium">users</span>
+						<span className="ml-2 capitalize font-medium">usuarios</span>
 					</a>
 				</li>
 	
@@ -149,7 +149,7 @@ export default function Home() {
 							2v2h-2V4H5v16h9v-2h2v2a2 2 0 01-2 2H5a2 2 0 01-2-2V4a2 2
 							0 012-2h9z"></path>
 					</svg>
-					<span className="ml-2 capitalize font-medium">log out</span>
+					<span className="ml-2 capitalize font-medium">Cerrar Sesión</span>
 				</a>
 	
 			</div>
@@ -171,7 +171,7 @@ export default function Home() {
 							dark:text-green-200 dark:border-green-200
 							focus:outline-none border-b-2 font-medium capitalize
 							transition duration-500 ease-in-out">
-							users
+							Usuario
 						</a>
 						<button
 							className="ml-6 py-2 block border-b-2 border-transparent
@@ -179,7 +179,7 @@ export default function Home() {
 							focus:text-green-500 focus:border-green-500
 							dark-focus:text-green-200 dark-focus:border-green-200
 							transition duration-500 ease-in-out">
-							role
+							roles
 						</button>
 						<button
 							className="ml-6 py-2 block border-b-2 border-transparent
@@ -187,7 +187,7 @@ export default function Home() {
 							focus:text-green-500 focus:border-green-500
 							dark-focus:text-green-200 dark-focus:border-green-200
 							transition duration-500 ease-in-out">
-							access rights
+							derechos de acceso
 						</button>
 					</div>
 	
@@ -217,7 +217,7 @@ export default function Home() {
 	
 				</nav>
 				<h2 className="my-4 text-4xl font-semibold dark:text-gray-400">
-					User list
+					Reportes registrados
 				</h2>
 				<div
 					className="pb-2 flex items-center justify-between text-gray-600
@@ -229,19 +229,13 @@ export default function Home() {
 							<span className="text-green-500 dark:text-green-200">
 								431
 							</span>
-							users;
+							usuarios;
 						</span>
 						<span>
 							<span className="text-green-500 dark:text-green-200">
 								22
 							</span>
-							projects;
-						</span>
-						<span>
-							<span className="text-green-500 dark:text-green-200">
-								33
-							</span>
-							roles
+							reportes;
 						</span>
 					</div>
 					<div>
@@ -280,7 +274,7 @@ export default function Home() {
 					<div className="ml-10 pl-2 flex capitalize">
 						{/* <!-- Left side --> */}
 						<span className="ml-8 flex items-center">
-							name
+							Nombre
 							<svg
 								className="ml-1 h-5 w-5 fill-current text-green-500
 								dark:text-green-200"
@@ -291,7 +285,7 @@ export default function Home() {
 							</svg>
 						</span>
 						<span className="ml-24 flex items-center">
-							login
+							Ciudadano
 							<svg
 								className="ml-1 h-5 w-5 fill-current"
 								viewBox="0 0 24 24">
@@ -366,7 +360,7 @@ export default function Home() {
 						<div
 							className="ml-4 flex flex-col capitalize text-gray-600
 							dark:text-gray-400">
-							<span>name</span>
+							<span>nombre</span>
 							<span className="mt-2 text-black dark:text-gray-200">
 								carmen beltran
 							</span>
@@ -456,7 +450,7 @@ export default function Home() {
 						<div
 							className="ml-4 flex flex-col capitalize text-gray-600
 							dark:text-gray-400">
-							<span>name</span>
+							<span>nombre</span>
 							<span className="mt-2 text-black dark:text-gray-200">
 								enoshima junko
 							</span>
@@ -533,7 +527,7 @@ export default function Home() {
 						<div
 							className="ml-4 flex flex-col capitalize text-gray-600
 							dark:text-gray-400">
-							<span>name</span>
+							<span>nombre</span>
 							<span className="mt-2 text-black dark:text-gray-200">
 								dark siders
 							</span>
@@ -632,7 +626,7 @@ export default function Home() {
 						<div
 							className="ml-4 flex flex-col capitalize text-gray-600
 							dark:text-gray-400">
-							<span>name</span>
+							<span>nombre</span>
 							<span className="mt-2 text-black dark:text-gray-200">
 								crysis
 							</span>

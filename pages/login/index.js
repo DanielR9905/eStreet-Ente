@@ -51,6 +51,13 @@ export default function login() {
                         style={{ backgroundImage: 'url("../background.png")' }}
                     >
                         <div className="grid justify-items-center w-full">
+                            <div className="contenedorInput">
+                                <input
+                                    type="text"
+                                    className="input"
+                                    placeholder="Credenciales"
+                                />
+                            </div>
                             {/* <Button
                                 onClick={handleAuthentication}
                                 loading={authorizing}

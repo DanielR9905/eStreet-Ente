@@ -1,6 +1,18 @@
 import Link from 'next/link'
+import Swal from 'sweetalert2'
 
 export default function Inicio() {
+    const alerta = () => {
+        Swal.fire({
+            title: 'Acción',
+            text: '¿Qué desea hacer?',
+            icon: 'question',
+            showConfirmButton: true,
+            confirmButtonText: 'Aceptar',
+            showCancelButton: true,
+            cancelButtonText: 'Denegar',
+        })
+    }
     return (
         <>
             <div className="h-screen w-full flex overflow-hidden bg-lightGray">
@@ -102,7 +114,12 @@ export default function Inicio() {
                                 </div>
                                 <div className="flex flex-col">
                                     <div className="contenedorBoton">
-                                        <button className="btn">Acción</button>
+                                        <button
+                                            className="btn"
+                                            onClick={alerta()}
+                                        >
+                                            Acción
+                                        </button>
                                     </div>
                                 </div>
                             </div>

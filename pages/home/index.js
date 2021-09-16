@@ -86,7 +86,7 @@ export default function Inicio() {
                             </div>
                         </div>
                         <div className="mt-8 px-4 py-4 flex justify-between bg-white shadow-xl rounded-lg text-richBlackFogra">
-                            <div className="grid grid-cols-6 auto-cols-max">
+                            <div className="grid grid-cols-6 w-full auto-cols-max">
                                 <div className="flex flex-col">
                                     <span className="mt-2 text-center">
                                         Jhonatan Cardona
@@ -125,7 +125,7 @@ export default function Inicio() {
                             </div>
                         </div>
                         <div className="mt-8 px-4 py-4 flex justify-between bg-white shadow-xl rounded-lg text-richBlackFogra">
-                            <div className="grid grid-cols-6 auto-cols-max">
+                            <div className="grid grid-cols-6 w-full auto-cols-max">
                                 <div className="flex flex-col">
                                     <span className="mt-2 text-center">
                                         Jhonatan Cardona
@@ -159,7 +159,7 @@ export default function Inicio() {
                             </div>
                         </div>
                         <div className="mt-8 px-4 py-4 flex justify-between bg-white shadow-xl rounded-lg text-richBlackFogra">
-                            <div className="grid grid-cols-6 auto-cols-max">
+                            <div className="grid grid-cols-6 w-full auto-cols-max">
                                 <div className="flex flex-col">
                                     <span className="mt-2 text-center">
                                         Jhonatan Cardona
